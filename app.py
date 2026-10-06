@@ -2,7 +2,10 @@ import streamlit as st
 
 st.title("Conversor de temperatura")
 
-modo = st.ratio("Convertir de: " ['Celsisus a Fahrenheit', 'Farenheit a Celsius', 'Celsius a Kelvin', 'Kelvin a Celsius'])
+modo = st.ratio("Convertir de: " ['Celsisus a Fahrenheit', 
+                                  'Farenheit a Celsius', 
+                                  'Celsius a Kelvin', 
+                                  'Kelvin a Celsius'])
 valor = st.number_input("Valor")
 
 if modo == "Celsisus a Fahrenheit":
