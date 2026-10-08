@@ -24,3 +24,5 @@ elif modo == "Kelvin a Celsius":
     resultado = valor - 273.15
     st.success(f"**{round(resultado, 2)} °C**")
     st.caption(f'{valor} °K son {round(resultado, 2)} °C')
+
+st.caption('Made with Streamlit')
